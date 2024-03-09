@@ -1,0 +1,142 @@
+:root {
+    --primary-color: #635bff;
+    --secondary: #0a2540;
+}
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.line {
+  width: 180px;
+  height: 6px;
+  background-color: #f7410a;
+  margin: 7px auto;
+}
+a {
+  text-decoration: none;
+}
+.ctn {
+  background-color: #bba3a344;
+  color: rgb(68, 43, 157);
+  padding: 8px 15px;
+  border-radius: 30px;
+  margin: px;
+}
+
+
+body {
+  padding: 3rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 4vmin;
+  color: #49497e;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 25px auto;
+  max-width: 90%;
+  gap: 1rem;
+}
+
+.content {
+  min-height: 16rem;
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: 0px 18px 36px -18px rgba(0, 0, 0, 0.1),
+    0px 30px 45px -30px rgba(50, 50, 93, 0.25);
+  background-color: rgba(253, 255, 255, 0.964);
+  cursor: pointer;
+  width: 100%;
+  flex-basis: 20rem;
+  padding: 0.25rem;
+  padding-top: 0.1%;
+  min-height: 30rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.content > h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.content > p {
+  font-size: 1.125rem;
+  line-height: 1.55;
+  font-weight: 500;
+}
+
+.content a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.content a:hover {
+  color: #0a2540;
+}
+
+.card-background {
+  height: 13rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover .card-background {
+  padding-top: 0.5rem;
+  height: 12rem;
+}
+
+.card-background img {
+  border-radius: 0.7rem;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card:hover .action-bottom-bar a {
+  opacity: 1;
+}
+
+.action-bottom-bar {
+  display: flex;
+  font-size: 1.125rem;
+  height: 2.5rem;
+  width: 100%;
+  justify-content: center;
+  margin: 0.5rem auto;
+ 
+}
+
+.action-bottom-bar a {
+  display: flex;
+  gap: 0.4rem;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  padding: auto 1.5rem;
+  transition: all 0.2s ease-in-out;
+  align-items: center;
+}
+.action-bottom-bar a img{
+  border-radius: 15px;
+}
+
+.action-bottom-bar a:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
