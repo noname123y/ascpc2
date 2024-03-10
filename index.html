@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div id="menu">
+            <div>Home</div>
+            <div>About</div>
+            <div>Alumni</div>
+            <div id="menu-selected">Student</div>
+            <div>FAQs</div>
+            <div>And another</div>
+        </div>
+        <div id="close-btn">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-x-lg"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+    <main>
+        <div id="heading">
+            <h3>ABHAY KUMAR YADAV</h3>
+        </div>
+        <div id="main">
+            <section id="previous-team">
+                <h2 id="section-heading">Previous Teams</h2>
+                <div id="prev-teams" class="animate">
+                    <span class='text-black text-md font-semibold ml-[30px]'>YEAR:</span>
+                    <span class='text-zinc-500 text-2xl ml-[10px]'>2019</span>
+                    <div class="card-container mt animate t">
+                        <div id="card">
+                            <img id="card-img" src="avatar.png">
+                            <div>
+                                <p id="card-name">Name Surname</p>
+                                <p id="card-designation">Designation</p>
+                            </div>
+                            <div id="card-links">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                        class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                    </svg>
+                                    <p>Email</p>
+                                </a>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                    </svg>
+                                    <p>LinkdIn</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="card">
+                            <img id="card-img" src="avatar.png">
+                            <div>
+                                <p id="card-name">Name Surname</p>
+                                <p id="card-designation">Designation</p>
+                            </div>
+                            <div id="card-links">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                        class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                    </svg>
+                                    <p>Email</p>
+                                </a>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                    </svg>
+                                    <p>LinkdIn</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="current-team">
+                <h2 id="section-heading">Current Team</h2>
+                <div class="card-container">
+                    <div id="card" class="card-lower">
+                        <img id="card-img" src="avatar.png">
+                        <div>
+                            <p id="card-name">Name Surname</p>
+                            <p id="card-designation">Designation</p>
+                        </div>
+                        <div id="card-links">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                </svg>
+                                <p>Email</p>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                </svg>
+                                <p>LinkdIn</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="card">
+                        <img id="card-img" src="avatar.png">
+                        <div>
+                            <p id="card-name">Name Surname</p>
+                            <p id="card-designation">Designation</p>
+                        </div>
+                        <div id="card-links">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                </svg>
+                                <p>Email</p>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                </svg>
+                                <p>LinkdIn</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="card" class="card-lower">
+                        <img id="card-img" src="avatar.png">
+                        <div>
+                            <p id="card-name">Name Surname</p>
+                            <p id="card-designation">Designation</p>
+                        </div>
+                        <div id="card-links">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                </svg>
+                                <p>Email</p>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                </svg>
+                                <p>LinkdIn</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="domain-head" class="swiper-container">
+                <h2 class="swiper-headings">Domain Heads</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div id="swiper-card">
+                                <img id="card-img" src="avatar.png">
+                                <div>
+                                    <p id="card-name">Name Surname</p>
+                                    <p id="card-designation">Designation</p>
+                                </div>
+                                <div id="card-links">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                        <p>Email</p>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                        </svg>
+                                        <p>LinkdIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="swiper-card">
+                                <img id="card-img" src="avatar.png">
+                                <div>
+                                    <p id="card-name">Name Surname</p>
+                                    <p id="card-designation">Designation</p>
+                                </div>
+                                <div id="card-links">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                        <p>Email</p>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                        </svg>
+                                        <p>LinkdIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="swiper-card">
+                                <img id="card-img" src="avatar.png">
+                                <div>
+                                    <p id="card-name">Name Surname</p>
+                                    <p id="card-designation">Designation</p>
+                                </div>
+                                <div id="card-links">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                        <p>Email</p>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                        </svg>
+                                        <p>LinkdIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="swiper-card">
+                                <img id="card-img" src="avatar.png">
+                                <div>
+                                    <p id="card-name">Name Surname</p>
+                                    <p id="card-designation">Designation</p>
+                                </div>
+                                <div id="card-links">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                        <p>Email</p>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                        </svg>
+                                        <p>LinkdIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="swiper-card">
+                                <img id="card-img" src="avatar.png">
+                                <div>
+                                    <p id="card-name">Name Surname</p>
+                                    <p id="card-designation">Designation</p>
+                                </div>
+                                <div id="card-links">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                        <p>Email</p>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                        </svg>
+                                        <p>LinkdIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="swiper-card">
+                                <img id="card-img" src="avatar.png">
+                                <div>
+                                    <p id="card-name">Name Surname</p>
+                                    <p id="card-designation">Designation</p>
+                                </div>
+                                <div id="card-links">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                        <p>Email</p>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                        </svg>
+                                        <p>LinkdIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="swiper-card">
+                                <img id="card-img" src="avatar.png">
+                                <div>
+                                    <p id="card-name">Name Surname</p>
+                                    <p id="card-designation">Designation</p>
+                                </div>
+                                <div id="card-links">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                        <p>Email</p>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                        </svg>
+                                        <p>LinkdIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <section id="domain-associate-head" class="swiper-container">
+                <h2 class="swiper-headings">Associate Domain Heads</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div id="swiper-card">
+                                <img id="card-img" src="avatar.png">
+                                <div>
+                                    <p id="card-name">Name Surname</p>
+                                    <p id="card-designation">Designation</p>
+                                </div>
+                                <div id="card-links">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                        <p>Email</p>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                        </svg>
+                                        <p>LinkdIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="swiper-card">
+                                <img id="card-img" src="avatar.png">
+                                <div>
+                                    <p id="card-name">Name Surname</p>
+                                    <p id="card-designation">Designation</p>
+                                </div>
+                                <div id="card-links">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                        <p>Email</p>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                        </svg>
+                                        <p>LinkdIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="swiper-card">
+                                <img id="card-img" src="avatar.png">
+                                <div>
+                                    <p id="card-name">Name Surname</p>
+                                    <p id="card-designation">Designation</p>
+                                </div>
+                                <div id="card-links">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                        <p>Email</p>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                        </svg>
+                                        <p>LinkdIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="swiper-card">
+                                <img id="card-img" src="avatar.png">
+                                <div>
+                                    <p id="card-name">Name Surname</p>
+                                    <p id="card-designation">Designation</p>
+                                </div>
+                                <div id="card-links">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                        <p>Email</p>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                        </svg>
+                                        <p>LinkdIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="swiper-card">
+                                <img id="card-img" src="avatar.png">
+                                <div>
+                                    <p id="card-name">Name Surname</p>
+                                    <p id="card-designation">Designation</p>
+                                </div>
+                                <div id="card-links">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                        <p>Email</p>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                        </svg>
+                                        <p>LinkdIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="swiper-card">
+                                <img id="card-img" src="avatar.png">
+                                <div>
+                                    <p id="card-name">Name Surname</p>
+                                    <p id="card-designation">Designation</p>
+                                </div>
+                                <div id="card-links">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                        <p>Email</p>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                        </svg>
+                                        <p>LinkdIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div id="swiper-card">
+                                <img id="card-img" src="avatar.png">
+                                <div>
+                                    <p id="card-name">Name Surname</p>
+                                    <p id="card-designation">Designation</p>
+                                </div>
+                                <div id="card-links">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                        </svg>
+                                        <p>Email</p>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor"
+                                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                        </svg>
+                                        <p>LinkdIn</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
